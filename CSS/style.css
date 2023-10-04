@@ -1,0 +1,71 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: tahoma;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+}
+
+h1,p{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+}
+
+input,textarea,select{
+    width: 100%;
+    min-height: 2em;
+    margin: 10px 0 0 0;
+   
+}
+
+input, textarea{
+    background-color: #0f0f1e;
+    color: #f4f5f6;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+
+form{
+    width: 60vw;
+    min-width: 300px;
+    max-width: 500px;    
+}
+
+fieldset{
+    padding: 20px 0;
+    border: none;
+    border-bottom: 2px solid #5d5d8e;
+} 
+
+fieldset:last-of-type{
+    border-bottom: none;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    min-width:  300px;
+    min-height: 2rem;
+    border: 2px solid #f4f5f6a5;
+    margin: 40px auto 10px;
+    background-color: #30304a;
+    font-size: 16px;
+}
+
+a{
+    color: #f4f5f6;
+}
